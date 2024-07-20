@@ -29,7 +29,7 @@ function Download() {
                                     </Typography>
 
                                     <Typography variant="h2" lineHeight="30px" sx={{ width: { xs: "100%", md: "40%" }, fontFamily: "Poppins", fontSize: "15px", fontWeight: 450 }} color="white">
-                                        Don't  miss  out  on  this  incredible  opportunity  to  unlock  a  world  of  love  and  meaningful connections! Take charge of your dating life and download Tinder today.
+                                        Don't miss out on this incredible opportunity to unlock a world of exciting activities and meaningful connections! Take charge of your social life and download Loneliness today.
                                     </Typography>
 
                                     <Box pt={2} pb={3}>
@@ -80,7 +80,7 @@ function Download() {
                 </Box>
 
                 {/* responsive */}
-                <Box id="download" pt={15} sx={{ display: { xs: "block", sm: "block", md: "none", lg: "none" } }}>
+                <Box id="downloadr" pt={15} sx={{ display: { xs: "block", sm: "block", md: "none", lg: "none" } }}>
                     <Box sx={{
                         backgroundImage: `url(${downloadresponsive})`,
                         backgroundRepeat: "no-repeat",
@@ -88,7 +88,7 @@ function Download() {
                         width: "100%",
                         height: "auto",
                         borderTopRightRadius: "30px", borderBottomRightRadius: "30px",
-                    }}>
+                    }}> 
                         <Container>
                             <Grid container spacing={0} pt={8} pb={10}>
                                 <Grid xs={12} md={1.5} align="start" sx={{ display: { xs: "none", sm: "none", md: "block", lg: "block" } }}></Grid>
@@ -98,7 +98,7 @@ function Download() {
                                     </Typography>
 
                                     <Typography variant="h2" lineHeight="30px" sx={{ width: { xs: "100%", md: "40%" }, fontFamily: "Poppins", fontSize: "15px", fontWeight: 450 }} color="white">
-                                        Don't  miss  out  on  this  incredible  opportunity  to  unlock  a  world  of  love  and  meaningful connections! Take charge of your dating life and download Tinder today.
+                                        Don't miss out on this incredible opportunity to unlock a world of exciting activities and meaningful connections! Take charge of your social life and download Loneliness today.
                                     </Typography>
 
                                     <Box pt={2} pb={3}>
@@ -138,8 +138,8 @@ function Download() {
                                     </Box>
 
                                     <Stack align="center" direction="row" spacing={2}>
-                                        <img src={googleplay} alt="..." style={{ alignSelf:"center",width: "20vh" }} />
-                                        <img src={appstore} alt="..." style={{ alignSelf:"center",width: "20vh" }} />
+                                        <img src={googleplay} alt="..." style={{ alignSelf: "center", width: "20vh" }} />
+                                        <img src={appstore} alt="..." style={{ alignSelf: "center", width: "20vh" }} />
                                     </Stack>
                                 </Grid>
                             </Grid>

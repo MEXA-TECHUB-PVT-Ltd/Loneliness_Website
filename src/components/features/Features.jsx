@@ -46,7 +46,7 @@ function Features() {
                                     </Box>
 
                                     <Typography variant="h2" fontSize="35px" sx={{ pt: 1, pb: 1, width: { xs: "100%", lg: "100%" } }} fontWeight={540} color="white">
-                                        Impressive Features
+                                        Unleashing High-Impact Features
                                     </Typography>
 
                                 </Grid>
@@ -74,7 +74,7 @@ function Features() {
                                                 </Typography>
 
                                                 <Typography variant="paragraph" align="center" lineHeight="30px" sx={{ fontFamily: "Poppins", fontSize: "14px", opacity: 0.8 }} color="white">
-                                                    Browse through an intriguing individual's profile to learn more about them, including photos, hobbies, and more.
+                                                    Discover detailed profiles to find the perfect companion for your next social activity
                                                 </Typography>
                                             </Stack>
                                         </div>
@@ -229,7 +229,7 @@ function Features() {
                                                 </Typography>
 
                                                 <Typography variant="paragraph" align="center" lineHeight="30px" sx={{ fontFamily: "Poppins", fontSize: "14px", opacity: 0.8 }} color="white">
-                                                    Upgrade to Loneliness Premium for worldwide connections and Super Likes for a more unique dating experience.
+                                                    Unlock exclusive features and priority access for an enhanced social experience.
                                                 </Typography>
                                             </Stack>
                                         </div>

@@ -20,7 +20,7 @@ function Footer() {
                                 <img src={logo} alt="..." style={{ width: "18vh" }} />
                                 <Box width={{ xs: "100%", lg: "40%" }}>
                                     <Typography variant="paragraph" lineHeight="30px" sx={{ fontSize: "15px", fontFamily: "Poppins", fontWeight: "", pt: 2 }} color="#343434">
-                                        Swipe, match, love! Tinder is the modern world of online dating. Let your love story shine today.
+                                        Discover and book the perfect buddy for any social activity with seamless scheduling and secure payments on Loneliness.
                                     </Typography>
                                 </Box>
                             </Grid>
@@ -59,7 +59,7 @@ function Footer() {
                                         </div>
                                         <div>
                                             <Typography variant="paragraph" lineHeight="30px" sx={{ fontSize: "14px", fontFamily: "Poppins" }} color="#343434">
-                                                tinderclone@gmail.com
+                                                loneliness@gmail.com
                                             </Typography>
                                         </div>
                                     </div>

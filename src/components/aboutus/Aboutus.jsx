@@ -9,19 +9,10 @@ function Aboutus() {
     return (
         <>
             <Container>
-                <Box id="aboutus" pt={15}>
+                <Box id="aboutus" pt={{ xs: 10, md: 10 }}>
                     <Grid container spacing={0}>
-                        <Grid xs={12} sm={6} lg={6} align="" >
-                            <div style={{ display: "flex", alignContent: "start", justifyContent: "start" }}>
-
-                                <Box mt={{ xs: 0, sm: 15, md: 0 }} sx={{ zIndex: -1 }}>
-                                    <img src={aboutus} alt="..." style={{ width: "95%" }} />
-                                </Box>
-                            </div>
-                        </Grid>
-
                         <Grid xs={12} sm={6} md={6} align="left" >
-                            <Box align="" sx={{ mt: "40px" }} pl={{ xs: 0, md: 7, lg: 7 }}>
+                            <Box align="" sx={{ mt: "40px" }} pl={{ xs: 0, md: 0, lg: 0 }}>
                                 <Box sx={{
                                     width: "130px",
                                     height: "40px",
@@ -38,8 +29,10 @@ function Aboutus() {
                                     Short Story About Us
                                 </Typography>
 
-                                <Typography variant="paragraph" lineHeight="30px" sx={{ fontFamily: "Poppins" }} color="white">
-                                    We help you get to know and match people all around the world. Whether you are on the quest for love or looking for a new connection, Tinder is the right destination to discover your perfect match. At Tinder, we value relationships that are honest, cordial, and respectful. We aspire to keep alive the beauty of human connection. So, in this new digital era, why not reimagine your love life.
+                                <Typography variant="paragraph" lineHeight="30px" sx={{ fontFamily: "Poppins", width: "50%" }} color="white">
+                                    We prioritize meaningful connections and memorable moments. Our user-friendly interface and secure payment system make finding and booking service providers effortless. Whether you need a dinner companion, a date, or a social partner, Loneliness is your go-to app.
+                                    <br />
+                                    Our dedicated team ensures a reliable, safe, and efficient platform to enhance your social life. Join us in transforming how you connect and engage with others.
                                 </Typography>
 
                                 <Box sx={{ pt: 2 }}>
@@ -64,6 +57,15 @@ function Aboutus() {
                                     }} >Learn More</Button>
                                 </Box>
                             </Box>
+                        </Grid>
+
+                        <Grid xs={12} sm={6} lg={6} align="" pt={{ xs: 5, sm: 0, md: 0 }}>
+                            <div style={{ display: "flex", alignContent: "start", justifyContent: "start" }}>
+
+                                <Box ml={{ xs: 0, md: 8 }} mt={{ xs: 0, sm: 15, md: 3 }} sx={{ zIndex: -1 }}>
+                                    <img src={aboutus} alt="..." style={{ width: "90%" }} />
+                                </Box>
+                            </div>
                         </Grid>
                     </Grid>
                 </Box>
