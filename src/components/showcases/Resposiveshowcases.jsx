@@ -15,13 +15,22 @@ function ResponsiveShowcase() {
     return (
         <>
             <Container>
-                <Box id="showcase" pt={10} sx={{ display: { xs: "block", sm: "none", md: "none", lg: "none" } }}>
+                <Box id="resshowcase" pt={10} sx={{ display: { xs: "block", sm: "none", md: "none", lg: "none" } }}>
                     <Grid container spacing={0} pb={3}>
                         <Grid xs={12} align="center">
                             <Typography variant="h2" align="center" pt={0} fontSize="35px" fontWeight={550} color="#FCE220" >
                                 App Showcase
                             </Typography>
                         </Grid>
+
+                        <Grid xs={12} align="center">
+                            <Box sx={{ width: "100%" }}>
+                                <Typography variant="paragraph" align="center" lineHeight="25px" sx={{ fontFamily: "Poppins", fontSize: "13px" }} color="white">
+                                    Are you ready to step into a world of exciting possibilities and meaningful connections? Join the community of individuals who have transformed their social experiences with the Loneliness app!
+                                </Typography>
+                            </Box>
+                        </Grid>
+
                     </Grid>
 
                     <Grid container spacing={0} pt={2} >
@@ -86,7 +95,7 @@ function ResponsiveShowcase() {
                             <img src={exploremockup} alt="..." style={{ width: "100%" }} />
                         </Grid>
 
-                    </Grid> 
+                    </Grid>
 
                 </Box>
             </Container >

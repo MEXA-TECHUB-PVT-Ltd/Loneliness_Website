@@ -45,6 +45,14 @@ function Showcases() {
                                 App Showcase
                             </Typography>
                         </Grid>
+
+                        <Grid xs={12} align="center">
+                            <Box sx={{ width: "50%" }}>
+                                <Typography variant="paragraph" align="center" lineHeight="25px" sx={{ fontFamily: "Poppins", fontSize: "13px" }} color="white">
+                                    Are you ready to step into a world of exciting possibilities and meaningful connections? Join the community of individuals who have transformed their social experiences with the Loneliness app!
+                                </Typography>
+                            </Box>
+                        </Grid>
                     </Grid>
 
                     <Grid container spacing={0} pt={2} >

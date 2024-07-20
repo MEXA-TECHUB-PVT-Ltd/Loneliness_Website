@@ -44,7 +44,7 @@ function Howitworks() {
 
                         <Grid xs={12} md={6} align="left">
                             <Box >
-                                <Box sx={{ display: { xs: "none", sm: "none", md: "block", lg: "block" }, position: "relative", left: 350, top: 200 }}>
+                                <Box sx={{ display: { xs: "none", sm: "none", md: "block", lg: "block" }, position: "relative", left: 380, top: 160 }}>
                                     <img src={arrowright} alt="..." style={{ width: "400px" }} />
                                 </Box>
                                 <Stack direction="column" spacing={25}>
@@ -122,7 +122,7 @@ function Howitworks() {
 
                         <Grid xs={12} md={6} align="left">
                             {/* <div style={{ display: "flex", justifyContent: "center", alignContent: "center" }}> */}
-                            <Box pt={{ xs: 5, md: 17 }} ml={25} pl={{ xs: 0, md: 7 }} >
+                            <Box pt={{ xs: 5, md: 17 }} ml={{ xs: 0, md: 25 }} pl={{ xs: 0, md: 7 }} >
                                 <Box sx={{ display: { xs: "none", sm: "none", md: "block", lg: "block" } }}>
                                     <Box sx={{
                                         width: "150px",
@@ -151,7 +151,7 @@ function Howitworks() {
                                                 </div>
 
                                                 <Typography variant="h2" align="center" fontSize="20px" sx={{ fontFamily: "Poppins", pt: 2, pb: 2, width: { xs: "100%", lg: "100%" } }} fontWeight={500} color="white">
-                                                    Find Service Provider
+                                                    Find Buddy
                                                 </Typography>
 
                                                 <Typography variant="paragraph" align="center" lineHeight="25px" sx={{ fontFamily: "Poppins", fontSize: "13px" }} color="white">
@@ -168,7 +168,7 @@ function Howitworks() {
                                 </Box>
 
                                 <Box pt={{ xs: 5, md: 0 }} mt={{ xs: 0, md: -8 }}>
-                                    <Typography variant="paragraph" align="center" lineHeight="25px" sx={{ fontFamily: "Poppins", fontSize: "13px" }} color="white">
+                                    <Typography variant="paragraph" align="center" lineHeight="25px" sx={{ fontFamily: "Poppins", fontSize: "13px" ,mb:2}} color="white">
                                         Expand your circle and make connections across the world. All you need to start with are some amazing pictures and an engaging description of yourself.
                                     </Typography><br />
                                     <Button variant="contained" sx={{
@@ -183,6 +183,7 @@ function Howitworks() {
                                         fontSize: "15px",
                                         letterSpacing: "1px",
                                         borderRadius: "50px",
+                                        marginTop:"10px",
                                         ':hover': {
                                             boxShadow: "none",
                                             background: 'linear-gradient(to bottom,  #FCE220, #bdae3e)', // Slightly transparent color on hover
@@ -190,6 +191,7 @@ function Howitworks() {
                                         },
                                     }} >Learn More</Button>
                                 </Box>
+
                             </Box>
                             {/* </div> */}
                         </Grid>
